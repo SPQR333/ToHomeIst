@@ -6,6 +6,7 @@ import retrofit2.Retrofit
 data class CardListResponse(val items: CardListItem) {
 
     data class CardListItemDto(
+
         @SerializedName("title")
         val title: String,
 
